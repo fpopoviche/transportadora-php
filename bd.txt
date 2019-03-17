@@ -1,0 +1,19 @@
+create table motorista(
+     idmotorista bigint auto_increment,
+      nome varchar(100) not null,
+      sexo varchar(100) not null,
+      cpf varchar(100) not null,
+      telefone varchar(15) not null,
+
+       primary key (idmotorista);
+
+
+
+create table caminhao(
+    idcaminhao bigint auto_increment,
+    placa varchar(100) not null,
+    modelo varchar(100) not null,
+    chaci varchar(100) not null,
+    idmotorista bigint,
+    primary key (idcaminhao),
+    foreign key(idmotorista) references motorista(idmotorista));

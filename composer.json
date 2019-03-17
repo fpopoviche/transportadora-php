@@ -1,0 +1,17 @@
+{
+    "name": "yago/transportadora",
+    "description": "Projeto PHP - Transportadora",
+    "type": "project",
+    "require": {
+        "twbs/bootstrap": "^3.3@dev",
+        "components/jquery": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fellipe Popoviche",
+            "email": "fpgl.popoviche@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
